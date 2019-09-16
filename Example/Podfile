@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZBLogining_Example' do
+  pod 'ZBLogining', :path => '../'
+
+  target 'ZBLogining_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
