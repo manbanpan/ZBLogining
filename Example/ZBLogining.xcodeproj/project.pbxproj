@@ -61,12 +61,12 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89C94D5861A53EACF68A16AD /* Pods-ZBLogining_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBLogining_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBLogining_Tests/Pods-ZBLogining_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		95B0131CB8DC22F28C27CF6E /* Pods-ZBLogining_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBLogining_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZBLogining_Example/Pods-ZBLogining_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A906B042A63A8CCCE6573B31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A906B042A63A8CCCE6573B31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AFA2E586E88A7E0FF3B816CD /* Pods_ZBLogining_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBLogining_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C836D9549238F3FD473A5D0B /* ZBLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZBLogining.podspec; path = ../ZBLogining.podspec; sourceTree = "<group>"; };
+		C836D9549238F3FD473A5D0B /* ZBLogining.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZBLogining.podspec; path = ../ZBLogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D8B7D0B20F35B4F39233E863 /* Pods_ZBLogining_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZBLogining_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D16A129C00BDB052AFCFF8 /* Pods-ZBLogining_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZBLogining_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZBLogining_Example/Pods-ZBLogining_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF443CD46D9A884C33BEFD36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EF443CD46D9A884C33BEFD36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -349,12 +350,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZBLogining_Example/Pods-ZBLogining_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ZBLogining/ZBLogining.framework",
+				"${BUILT_PRODUCTS_DIR}/ZBNetWorking/ZBNetWorking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZBLogining.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZBNetWorking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

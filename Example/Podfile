@@ -4,7 +4,7 @@ platform :ios, '8.0'
 
 target 'ZBLogining_Example' do
   pod 'ZBLogining', :path => '../'
-
+  pod 'ZBNetWorking', :path => '../../ZBNetWorking'
   target 'ZBLogining_Tests' do
     inherit! :search_paths
 

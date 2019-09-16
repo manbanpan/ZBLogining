@@ -1,0 +1,6 @@
+framework module Pods_ZBLogining_Example {
+  umbrella header "Pods-ZBLogining_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZBLogining (0.1.0):
+    - ZBNetWorking
+  - ZBNetWorking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZBLogining (from `../`)
+  - ZBNetWorking (from `../../ZBNetWorking`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZBLogining:
+    :path: "../"
+  ZBNetWorking:
+    :path: "../../ZBNetWorking"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZBLogining: 3079c3a177e427780933e2043e6544b93f1dded3
+  ZBNetWorking: c1d0f79ef4ba70a2d20fdd6b35bf8c7ba4fee6f5
+
+PODFILE CHECKSUM: 898642ba972be66c4a3e07bc37cdd33133683e04
+
+COCOAPODS: 1.5.3
